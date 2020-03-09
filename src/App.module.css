@@ -1,0 +1,29 @@
+.DaysBar {
+    display: flex;
+    background-color: #2F74B5;
+    color: white;
+    padding: 4px;
+    box-sizing: border-box;
+}
+.DayHeaderTile {
+    flex: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Days {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border: 1px #A1A1A1 solid;
+}
+
+
+.AppBar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}

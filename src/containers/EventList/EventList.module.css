@@ -1,0 +1,58 @@
+.AddEventButtonsBar {
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.AddEventButtonsBar > div {
+    padding-left: 5px;
+}
+
+.EventInputs {
+    display: flex;
+    box-sizing: border-box;
+    padding: 4px;
+    color: #707070
+}
+.EventInput {
+    flex: 25%;
+    box-sizing: border-box;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.EventInput > label {
+    font-weight: 500;
+    text-align: left;
+}
+
+.EventInput > input {
+    height: 15px;
+    width: 95%;
+}
+
+
+
+.AddOrEditBar > div > label {
+    font-weight: 700;
+}
+
+
+.AddNewButton {
+    background-color: #2F74B5 !important;
+}
+
+.DeleteAllButton {
+    background-color: #DA3E06 !important;
+}
+
+.Error {
+    text-align: right;
+    box-sizing: border-box;
+    padding: 4px;
+    color: #DA3E06;
+    font-weight: 600;
+}

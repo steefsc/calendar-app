@@ -1,0 +1,46 @@
+.DayTile {
+    flex: 14%;
+    padding: 3px;
+    box-sizing: border-box;
+    font-weight: 700;
+    cursor: pointer;
+    overflow-y: auto;
+}
+
+.RightBorder {
+    border-right: 1px #A1A1A1 solid;
+}
+
+.BottomBorder {
+    border-bottom: 1px #A1A1A1 solid;
+}
+
+.WeekendBackground {
+    background-color: #F2F2F2;
+    color: #2F74B5;
+}
+
+.DifferentMonth {
+    color: #ACACAC !important;
+}
+
+.DayReminderContainer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1px;
+    height: 75px;
+}
+
+.EventListElement {
+    text-align: left;
+    font-size: x-small;
+    color: #fff;
+    width: 100%;
+    border-radius: 2px;
+    padding-left: 2px;
+    box-sizing: border-box;
+    font-weight: 100;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+}
